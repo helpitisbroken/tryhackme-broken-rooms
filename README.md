@@ -39,9 +39,18 @@ Temporarily disable access to a room once its issue is confirmed and it enters t
 
 These are dates of emails, not confirmed dates when the problems began. The current state of each room is unknown.
 
-## Add or update a room
+## Submit a room
 
-Add a row to [`rooms.csv`](rooms.csv) with:
+Found a room that appears broken? [Open a room report](https://github.com/helpitisbroken/tryhackme-broken-rooms/issues/new?template=broken-room.md). You need a GitHub account to submit an issue.
+
+1. Check the table above and [existing issues](https://github.com/helpitisbroken/tryhackme-broken-rooms/issues) for the same room and problem. If it is already listed, add your new observation to that issue instead of opening a duplicate.
+2. Include the room name and URL, the date you first observed the problem, and the date you last checked it. Use `YYYY-MM-DD`; say `unknown` rather than guessing a date.
+3. Describe what failed, what you expected, and the shortest safe steps that reproduce it. Mention whether restarting the room or AttackBox changed the result.
+4. Add evidence you collected yourself, such as a redacted screenshot, error message, or relevant log excerpt. A report to TryHackMe support is helpful but not required. If you reported it, include the date; do not paste a private email thread.
+
+Do not post flags, challenge answers, walkthroughs, credentials, personal details, or other users' private information. A report records an observed problem; it does not establish that the room is still broken today. If you later confirm a fix, update the issue with the date and what you tested.
+
+You can also propose a change directly through a pull request. Add or update a row in [`rooms.csv`](rooms.csv) with:
 
 - The room name and URL.
 - `date_found`: the date you first observed the issue, in `YYYY-MM-DD` format. Leave it blank if unknown.
@@ -67,4 +76,4 @@ Only list problems you have directly observed or can verify from evidence. Dates
 | `date_last_checked` | Most recent verification date (`YYYY-MM-DD`) |
 | `notes` | Additional context, including uncertain dates |
 
-The CSV is the source of truth. Update it through a pull request or a direct edit on GitHub.
+The CSV is the source of truth. Accepted issue reports can be added to it after the supplied evidence is reviewed.
