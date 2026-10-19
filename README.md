@@ -10,6 +10,21 @@ I started this tracker because I reported rooms that appeared broken and could n
 
 The goal is accountability and useful information for learners: what failed, when it was reported, whether it still fails, and when it was last checked. Entries describe the problem without flags, answers, or walkthroughs. The reports below come from a summary of sent emails supplied by the repository owner; they have not been independently rechecked.
 
+## Why leave a known broken room available?
+
+If a room has been confirmed broken and is waiting in a fix backlog, what is the reason for keeping it accessible without a warning? Learners deserve an explanation. A backlog is not a good reason to keep an unusable room playable, and a larger room count is no benefit if learners cannot trust the catalog. This tracker does not claim to know TryHackMe's motives or internal process, but the likely costs are easy to see:
+
+- **Learners lose time.** Someone may spend hours repeating steps, restarting machines, or debugging an unsolvable path. The frustration is worse when the platform already knows about the problem.
+- **Compute can be wasted.** Learners may keep broken machines and AttackBoxes running, or try resource-intensive approaches against a path that cannot work. The size of that cost is unknown, but it is avoidable.
+- **Trust in working rooms suffers.** Once you have encountered broken rooms, every difficult but valid challenge starts to look suspect. Learners may turn to walkthroughs just to find out whether the room works, spoiling a challenge that was actually fine.
+- **Support gets repeat reports.** If a known issue has no visible status, more learners may spend time reporting the same failure, and support may spend time answering them individually.
+- **Support staff bear the frustration.** They may have to deliver the same disappointing answer to people who have already lost time. This is a concern about the experience, not a claim about staff morale or internal workload.
+- **Progress becomes harder to trust.** A failure caused by the lab can feel like a failure to learn. That can discourage learners and make completion statistics less meaningful.
+
+## A straightforward response
+
+Temporarily disable access to a room once its issue is confirmed and it enters the fix backlog. Keep a visible status notice and the issue report available so learners know why it is unavailable. Reopen the room after the affected path has been tested, record the fix date, and notify people who reported the problem. If a room can remain partly usable, say exactly what is broken before someone starts it.
+
 ## Rooms
 
 | Room | First email report | Last checked | Reported problem |
