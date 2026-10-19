@@ -1,6 +1,14 @@
 # Broken TryHackMe rooms
 
-A dated record of reported problems in TryHackMe rooms. Entries describe the reported problem without flags, answers, or walkthroughs. The reports below come from a summary of sent emails supplied by the repository owner; they have not been independently rechecked.
+Broken rooms waste learners' time. This repository tracks reported TryHackMe room failures, when they were reported, and when someone last checked them.
+
+## Why this exists
+
+It is ridiculous for a broken room to stay live without a warning after the problem has been reported. Learners can waste hours debugging a dead machine or a broken intended path, wondering whether they missed something when the lab itself is at fault. They should not have to search Discord or scattered online posts to find out whether a room works. TryHackMe should mark known problems clearly, fix or temporarily withdraw affected rooms, and tell reporters when a fix is confirmed.
+
+I started this tracker because I reported rooms that appeared broken and could not see a reliable public record of their status or learn when they were fixed. Community discussions on Discord and elsewhere suggest that some problems may have persisted for more than a year. Those longer-running claims need dated, linked evidence before they are presented here as verified cases.
+
+The goal is accountability and useful information for learners: what failed, when it was reported, whether it still fails, and when it was last checked. Entries describe the problem without flags, answers, or walkthroughs. The reports below come from a summary of sent emails supplied by the repository owner; they have not been independently rechecked.
 
 ## Rooms
 
